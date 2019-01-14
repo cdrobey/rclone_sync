@@ -80,7 +80,7 @@ CRONLOG=$HOMEDIR/rclone-cron.log
 
 ### HEADER ###
 
-LOCKFILE="/tmp/`basename $0`"
+LOCKFILE="/tmp/`basename $0`-$SRC"
 LOCKFD=99
 
 # PRIVATE
